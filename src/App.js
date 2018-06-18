@@ -5,10 +5,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-     
-         
-          <h1>Api repository</h1>
-
+         <h1>Api Party</h1>
     
       </div>
     );
