@@ -31,7 +31,7 @@ class Pokemon extends Component {
           <div>
             <input
               type="text"
-              placeholder="Enter a Pokemon number"
+              placeholder="Enter a Pokemon"
               value={this.state.number}
               onChange={this.handleChange}
             />
