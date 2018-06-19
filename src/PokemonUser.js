@@ -29,9 +29,11 @@ class PokemonUser extends Component {
 
     return (
       <div className="PokemonUser">
+        <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${user.id}.png`} alt="" />
         <h3>Pokemon:</h3><h2>{user.name}</h2>
         <h3>Weight:</h3>
-        <h3>{user.weight}</h3>
+        <h2>{user.weight}</h2>
+        
       </div>
     )
   }
